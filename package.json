@@ -1,0 +1,26 @@
+{
+   "name": "TypeormExpressStarter",
+   "version": "0.0.1",
+   "description": "Awesome node js framework based on express js and typeorm",
+   "devDependencies": {
+      "@types/inquirer": "0.0.43",
+      "@types/node": "^8.0.29",
+      "chalk": "^2.4.1",
+      "inquirer": "^6.2.1",
+      "ts-node": "3.3.0",
+      "tsconfig-paths": "^3.7.0",
+      "typescript": "2.5.2"
+   },
+   "dependencies": {
+      "body-parser": "^1.18.1",
+      "express": "^4.15.4",
+      "mysql": "^2.14.1",
+      "reflect-metadata": "^0.1.10",
+      "typeorm": "0.2.11"
+   },
+   "scripts": {
+      "start": "ts-node src/index.ts",
+      "build": "tsc -p .",
+      "typeorm": "ts-node -r tsconfig-paths/register ./node_modules//typeorm/cli.js"
+   }
+}
